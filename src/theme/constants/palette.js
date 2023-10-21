@@ -6,6 +6,7 @@ export const palette = {
   grey200: '#E8E8E8',
   grey400: '#B4B4B4',
   grey500: '#7A7A7A',
+  primary: '#DBE9FF',
   primary100: '#DBE9FF',
   primary200: '#2C7FFF',
   red: '#FF0000',
