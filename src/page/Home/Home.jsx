@@ -6,9 +6,9 @@ import * as S from './Home.styles';
 const Home = () => {
   const { goTo } = useNavigateTo();
   const buttonList = [
-    { label: '고객등록', location: '/register' },
-    { label: '포인트 적립', location: '/earn' },
-    { label: '포인트 사용', location: '/use' },
+    { label: '고객등록', location: '/user/register' },
+    { label: '포인트 적립', location: '/user/earn' },
+    { label: '포인트 사용', location: '/user/use' },
   ];
 
   const goToLink = (location) => {
